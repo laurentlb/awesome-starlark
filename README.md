@@ -62,6 +62,10 @@ Otherwise, consider using a Python mode.
 
 ## Users
 
+*  [AutoKitteh](https://github.com/autokitteh/autokitteh) is a developer platform
+   for workflow automation and orchestration. It is a code-based alternative to
+   no/low-code platforms. Workflows can be defined
+   [using Starlark](https://docs.autokitteh.com/glossary/starlark).
 *  [Bazel](https://github.com/bazelbuild/bazel) is a fast, scalable,
    multi-language and extensible build system. Starlark has been designed for
    Bazel.
