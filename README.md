@@ -37,6 +37,11 @@ There are 3 known implementations of the Starlark language:
    simplifies script execution, provides data conversion, and offers useful Starlark libraries and extensions.
 *  [Starlight](https://github.com/starlight-go/starlight) is a wrapper around the
    Starlark interpreter in Go.
+*  [starstruct](https://github.com/mna/starstruct) is a library for converting
+   between Starlark in Go's `StringDict` type and Go structs.
+*  [Startype](https://github.com/vladimirvivien/startype) is a library that
+   implements two-way conversion between Starlark in Go API types and regular
+   Go types.
 
 ## Bindings
 
