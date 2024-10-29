@@ -88,6 +88,8 @@ Otherwise, consider using a Python mode.
 *  [lucicfg](https://chromium.googlesource.com/infra/luci/luci-go/+/refs/heads/master/lucicfg/doc/README.md)
    from Chromium CI is a tool for generating low-level configuration files from Starlark.
 *  [Pixlet](https://github.com/tidbyt/pixlet) is a runtime and UX toolkit for generating animations for small LED displays, such as [Tidbyt](https://tidbyt.com/). Starlark is used to write applets whose outputs are WebP animations.
+*  [gnetlark](https://github.com/xyproto/gnetlark) is a web server with handlers
+   written in Starlark.
 *  [qri](http://qri.io/) is versioned, scriptable, exportable,
    collaborative datasets. It uses Starlark to [describe transformations](https://qri.io/docs/reference/starlark_syntax/).
 *  [recur](https://github.com/dbohdan/recur) is a command-line tool that
