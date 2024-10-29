@@ -35,6 +35,9 @@ There are 3 known implementations of the Starlark language:
    around a minimal subset of `net/http package` for use within starlark-go.
 *  [Starlet](https://github.com/1set/starlet) is a Go wrapper for the [Starlark in Go](https://github.com/google/starlark-go) that
    simplifies script execution, provides data conversion, and offers useful Starlark libraries and extensions.
+*  [Starlib](https://github.com/qri-io/starlib) is Qri's standard library for
+   Starlark in Go that includes packages for regular expressions, reading XLSX
+   documents, parsing ZIP archive, and other functionality.
 *  [Starlight](https://github.com/starlight-go/starlight) is a wrapper around the
    Starlark interpreter in Go.
 *  [starstruct](https://github.com/mna/starstruct) is a library for converting
