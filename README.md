@@ -1,11 +1,11 @@
 # Awesome Starlark
-*A list of awesome things related to the Starlark language*
+*A list of awesome things related to the Starlark language.*
 
 > This page started as a fork of https://github.com/bazelbuild/starlark/blob/master/users.md
 > with the goal of having a page that's easier to maintain, iterate on, and promote.
 > The repository above is dedicated to the specification, so it has different requirements.
 
-### Starlark Implementations
+## Starlark Implementations
 
 There are 3 known implementations of the Starlark language:
 
@@ -14,7 +14,9 @@ There are 3 known implementations of the Starlark language:
     https://github.com/bazelbuild/bazel/tree/master/src/main/java/net/starlark/java
 *   in Rust: https://github.com/facebookexperimental/starlark-rust
 
-### Tools
+The language specification can be found here: https://github.com/bazelbuild/starlark/blob/master/spec.md.
+
+## Tools
 
 * [Buildifier](https://github.com/bazelbuild/buildtools): Code formatter &
   linter. It can also apply automated fixes (e.g. remove unused loads).
@@ -27,7 +29,7 @@ There are 3 known implementations of the Starlark language:
 * [Moonlark](https://github.com/obazl/moonlark): Starlark parser in C with Lua
   bindings.
 
-### Libraries and extensions
+## Libraries and extensions
 
 *  [Skycfg](https://github.com/stripe/skycfg) is a library for Starlark to
    generate Protocol Buffer messages.
@@ -64,6 +66,8 @@ Otherwise, consider using a Python mode.
    for Starlark.
 
 ## Users
+
+List of projects that use Starlark.
 
 *  [AsCode](https://github.com/mcuadros/ascode) is a tool to define infrastructure
    as code using the Starlark language on top of Terraform.
