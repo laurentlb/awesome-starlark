@@ -38,6 +38,13 @@ There are 3 known implementations of the Starlark language:
 *  [Starlight](https://github.com/starlight-go/starlight) is a wrapper around the
    Starlark interpreter in Go.
 
+## Bindings
+
+### Python
+
+*  [python-starlark-go](https://github.com/caketop/python-starlark-go): Python bindings for Starlark in Go.
+*  [starlark-pyo3](https://github.com/inducer/starlark-pyo3): Python bindings for Starlark in Rust.
+
 ## IDEs
 
 Some IDEs have a [plugin for Bazel](https://bazel.build/install/ide).
