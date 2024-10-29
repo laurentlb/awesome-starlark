@@ -60,8 +60,13 @@ There are 3 known implementations of the Starlark language:
 Some IDEs have a [plugin for Bazel](https://bazel.build/install/ide).
 Otherwise, consider using a Python mode.
 
+*  [Starpls](https://github.com/withered-magic/starpls) is a language server
+   for Starlark.
+
 ## Users
 
+*  [AsCode](https://github.com/mcuadros/ascode) is a tool to define infrastructure
+   as code using the Starlark language on top of Terraform.
 *  [AutoKitteh](https://github.com/autokitteh/autokitteh) is a developer platform
    for workflow automation and orchestration. It is a code-based alternative to
    no/low-code platforms. Workflows can be defined
@@ -71,8 +76,13 @@ Otherwise, consider using a Python mode.
    Bazel.
 *  [Buck2](https://buck2.build/) is a build system from Meta, using
    Starlark in a similar way as Bazel.
+*  [bramble](https://github.com/maxmcd/bramble) is a purely functional build system
+   and package manager, using Starlark as the configuration language.
 *  [Copybara](https://github.com/google/copybara) is a tool for transforming and
    moving code between repositories. It embeds Starlark to configure the workflow.
+*  [clace](https://github.com/claceio/clace) is web app development and deployment
+   platform for internal tools. It allows easy and secure hosting of multiple web
+   apps, in any language/framework, on a single machine.
 *  [Delve](https://github.com/go-delve/delve) is a debugger for the Go
    programming language, aiming to provide a simple, full featured debugging
    tool for Go. [Delve uses Starlark](https://github.com/go-delve/delve/blob/master/Documentation/cli/starlark.md)
@@ -101,6 +111,10 @@ Otherwise, consider using a Python mode.
    written in Starlark.
 *  [qri](http://qri.io/) is versioned, scriptable, exportable,
    collaborative datasets. It uses Starlark to [describe transformations](https://qri.io/docs/reference/starlark_syntax/).
+*  [realm](https://github.com/spellshift/realm) is an Adversary Emulation Framework
+   with a focus on scalability, reliability, and automation. It is highly performant and is
+   designed for engagements of any size. See
+   [how they use Starlark](https://docs.realm.pub/user-guide/eldritch).
 *  [recur](https://github.com/dbohdan/recur) is a command-line tool that
    retries a command with exponential backoff plus jitter to mitigate the
    thundering herd problem. The success condition is written as a Starlark
