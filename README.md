@@ -33,6 +33,8 @@ There are 3 known implementations of the Starlark language:
    generate Protocol Buffer messages.
 *  [starlark-go-nethttp](https://github.com/pcj/starlark-go-nethttp) is a wrapper
    around a minimal subset of `net/http package` for use within starlark-go.
+*  [starlark-re](https://github.com/magnetde/starlark-re) is an implementation
+   of Python's `re` module for Starlark in Go.
 *  [Starlet](https://github.com/1set/starlet) is a Go wrapper for the [Starlark in Go](https://github.com/google/starlark-go) that
    simplifies script execution, provides data conversion, and offers useful Starlark libraries and extensions.
 *  [Starlight](https://github.com/starlight-go/starlight) is a wrapper around the
