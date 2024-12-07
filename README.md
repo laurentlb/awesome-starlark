@@ -28,14 +28,16 @@ Starlark is a simple, Python-like language designed to be embedded in another ap
 
 * [Buildifier](https://github.com/bazelbuild/buildtools) - The official code formatter &
   linter. It can also apply automated fixes (e.g. remove unused loads).
+* [Moonlark](https://github.com/obazl/moonlark) - Starlark parser in C with Lua
+  bindings.
+  [py2star](https://github.com/mahmoudimus/py2star) - a basic converter from Python to Starlark.
 * [Stardoc](https://skydoc.bazel.build/) - A documentation generator originally designed for Bazel.
 * [Starlark Online Playground](https://laurent.le-brun.eu/starlark/) -
     A web playground for Starlark.
 * [Starlark Playground](https://github.com/qri-io/starpg) - Starlark Playground
   is a web-based starlark editor. It uses the golang implementation of starlark
   running on a server to present a monaco editor set to python syntax.
-* [Moonlark](https://github.com/obazl/moonlark) - Starlark parser in C with Lua
-  bindings.
+
 
 ## Libraries and extensions
 
@@ -136,6 +138,13 @@ List of projects that use Starlark.
 *  [Vela](https://go-vela.github.io/docs/) - a continuous integration and delivery platform.
    It supports [Starlark scripting](https://go-vela.github.io/docs/templates/tutorials/starlark/)
    as an alternative to YAML.
+*  [VGS](https://www.verygoodsecurity.com/) - a data security platform that
+   simplifies secure data storage, compliance, and sharing through tokenization
+   and a vault-like infrastructure. Read their
+   [announcement](https://www.verygoodsecurity.com/blog/posts/meet-starlarky)
+   and [their documentation](https://www.verygoodsecurity.com/docs/vault/developer-tools/larky)
+   to see how they use Starlark to let their customer process sensitive data in
+   a secure way.
 *  [ytt](https://get-ytt.io/) - a templating tool, built on top of Starlark,
    that understands YAML structure allowing you to focus on your data instead of
    how to properly escape it. Read also [IBM's blog post](
