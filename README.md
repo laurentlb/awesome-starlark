@@ -22,7 +22,10 @@ Starlark is a simple, Python-like language designed to be embedded in another ap
 
 ## Tutorials
 
-* [Embedding Starlark (Part 1) — Configure Go Programs with Starlark Scripts](https://medium.com/@vladimirvivien/embedding-starlark-part-1-configure-go-programs-with-starlark-scripts-5abde31b8265) by Vladimir Vivien.
+* [A practical introduction to the Starlark language](https://laurent.le-brun.eu/blog/a-practical-introduction-to-the-starlark-language) by Laurent Le Brun, 2024.
+* [An Overview of the Starlark language](https://laurent.le-brun.eu/blog/an-overview-of-starlark) by Laurent Le Brun, 2024.
+* [Embedding Starlark (Part 1) — Configure Go Programs with Starlark Scripts](https://medium.com/@vladimirvivien/embedding-starlark-part-1-configure-go-programs-with-starlark-scripts-5abde31b8265) by Vladimir Vivien, 2023.
+* [GothamGo 2017: A Go implementation of the Skylark Configuration Language](https://www.youtube.com/watch?v=9P_YKVhncWI) by Alan Donovan, 2017.
 
 ## Tools
 
