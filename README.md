@@ -96,9 +96,9 @@ List of projects that use Starlark.
    and package manager, using Starlark as the configuration language.
 *  [Copybara](https://github.com/google/copybara) - a tool for transforming and
    moving code between repositories. It embeds Starlark to configure the workflow.
-*  [clace](https://github.com/claceio/clace) - web app development and deployment
-   platform for internal tools. It allows easy and secure hosting of multiple web
-   apps, in any language/framework, on a single machine.
+*  [OpenRun](https://github.com/openrundev/openrun) - web app development and deployment
+   platform for internal tools. It allows declarative deployment of applications built
+   in any language/framework.
 *  [Delve](https://github.com/go-delve/delve) - a debugger for the Go
    programming language, aiming to provide a simple, full featured debugging
    tool for Go. [Delve uses Starlark](https://github.com/go-delve/delve/blob/master/Documentation/cli/starlark.md)
