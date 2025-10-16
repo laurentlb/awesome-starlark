@@ -96,9 +96,6 @@ List of projects that use Starlark.
    and package manager, using Starlark as the configuration language.
 *  [Copybara](https://github.com/google/copybara) - a tool for transforming and
    moving code between repositories. It embeds Starlark to configure the workflow.
-*  [clace](https://github.com/claceio/clace) - web app development and deployment
-   platform for internal tools. It allows easy and secure hosting of multiple web
-   apps, in any language/framework, on a single machine.
 *  [Delve](https://github.com/go-delve/delve) - a debugger for the Go
    programming language, aiming to provide a simple, full featured debugging
    tool for Go. [Delve uses Starlark](https://github.com/go-delve/delve/blob/master/Documentation/cli/starlark.md)
@@ -122,6 +119,9 @@ List of projects that use Starlark.
    without compromising usability for complex cases.
 *  [lucicfg](https://chromium.googlesource.com/infra/luci/luci-go/+/refs/heads/master/lucicfg/doc/README.md) -
    a tool for generating low-level configuration files from Starlark, used by Chromium CI.
+*  [OpenRun](https://github.com/openrundev/openrun) - web app development and deployment
+   platform for internal tools. It allows declarative deployment of applications built
+   in any language/framework.
 *  [Pixlet](https://github.com/tidbyt/pixlet) - a runtime and UX toolkit for generating animations for small LED displays, such as [Tidbyt](https://tidbyt.com/). Starlark is used to write applets whose outputs are WebP animations.
 *  [gnetlark](https://github.com/xyproto/gnetlark) - a web server with handlers
    written in Starlark.
