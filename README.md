@@ -7,8 +7,9 @@ Starlark is a simple, Python-like language designed to be embedded in another ap
 
 *   [The language specification](https://github.com/bazelbuild/starlark/blob/master/spec.md)
 
-*   There are 3 known implementations of the Starlark language:
+*   There are 4 known implementations of the Starlark language:
     -   [starlark-go](https://github.com/google/starlark-go/) - an implementation in Go.
+    -   [starlark-python](https://github.com/dbohdan/starlark-python) - an implementation in Python originally ported from Java by AI.
     -   [starlark-rust](https://github.com/facebookexperimental/starlark-rust) - an implementation in Rust.
     -   [starlark/java](https://github.com/bazelbuild/bazel/tree/master/src/main/java/net/starlark/java) - an implementation in Java
       built for Bazel, that may not be suitable for use in other applications.
