@@ -135,6 +135,9 @@ List of projects that use Starlark.
    retries a command with exponential backoff plus jitter to mitigate the
    thundering herd problem. The success condition is written as a Starlark
    expression.
+*  [Remarshal](https://github.com/remarshal-project/remarshal) - a data format converter
+   for CBOR, JSON, MessagePack, TOML, and YAML 1.1 & 1.2. Supports transformations written
+   in Starlark.
 *  [Tilt](https://tilt.dev/) - manages local development instances for teams that
    deploy to Kubernetes. [Tilt files](https://docs.tilt.dev/tiltfile_concepts.html)
    are written in Starlark.
