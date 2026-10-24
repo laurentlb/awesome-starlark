@@ -140,7 +140,7 @@ List of projects that use Starlark.
 *  [Remarshal](https://github.com/remarshal-project/remarshal) - a data format converter
    for CBOR, JSON, MessagePack, TOML, and YAML 1.1 & 1.2. Supports transformations written
    in Starlark.
-*  [TDK CLI](https://github.com/tdk-landscape/tdk-cli-core) - a CLI that starts
+*  [Flisk](https://github.com/flisk-sh/flisk) - a CLI that starts
    local services on your machine. Its discovery engine, service definitions and
    generated Tiltfiles are written in Starlark (`.star` files).
 *  [Tilt](https://tilt.dev/) - manages local development instances for teams that
