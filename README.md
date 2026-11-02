@@ -96,6 +96,8 @@ List of projects that use Starlark.
    Starlark in a similar way as Bazel.
 *  [bramble](https://github.com/maxmcd/bramble) - a purely functional build system
    and package manager, using Starlark as the configuration language.
+*  [calcside](https://github.com/wylswz/calcside) - a code-execution sandbox for
+   AI agents, built on Starlark.
 *  [Copybara](https://github.com/google/copybara) - a tool for transforming and
    moving code between repositories. It embeds Starlark to configure the workflow.
 *  [Delve](https://github.com/go-delve/delve) - a debugger for the Go
