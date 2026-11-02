@@ -143,6 +143,9 @@ List of projects that use Starlark.
 *  [Flisk](https://github.com/flisk-sh/flisk) - a CLI that starts
    local services on your machine. Its discovery engine, service definitions and
    generated Tiltfiles are written in Starlark (`.star` files).
+*  [ScottiCAD](https://github.com/scotticad/scotticad) - a 3D modeller for 3D printing
+   that uses Starlark as its scripting language: scripts build and edit models through
+   a `cad` object, in a console or a script editor.
 *  [Tilt](https://tilt.dev/) - manages local development instances for teams that
    deploy to Kubernetes. [Tilt files](https://docs.tilt.dev/tiltfile_concepts.html)
    are written in Starlark.
